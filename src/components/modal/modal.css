@@ -13,7 +13,7 @@
     left: 25%;
     right: 25%;
     top: 20%;
-    bottom:30%;
+    bottom:20%;
 }
 .btnClass{
     padding: 20px 32px;
@@ -44,6 +44,25 @@
         color:#fff;
         top: 18%;
         bottom: 22%;
+        left: 20%;
+        right: 30%;
+    }
+}
+@media only screen and (min-device-width: 750px) and (max-width: 1024px) {
+    .modalContainer {
+        height:auto;
+        width :auto;
+        padding : 25px;
+        border : 1px solid #000000;
+        display:block;
+        text-align: center;
+        position: fixed;
+        z-index: 1050;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+        color:#fff;
+        top: 18%;
+        bottom: 47%;
         left: 20%;
         right: 30%;
     }
