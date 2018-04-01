@@ -1,0 +1,49 @@
+.modalContainer{
+    height:auto;
+    width :auto;
+    padding : 30px;
+    border : 1px solid #000000;
+    display:block;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    color:#fff;
+    left: 25%;
+    right: 25%;
+    top: 20%;
+    //margin: 185px 267px;
+}
+.btnClass{
+    padding: 20px 32px;
+    background-color: #1589FF;
+    color:#ffffff;
+    border:1px solid #000000;
+}
+
+.btnClass:hover {
+    cursor: pointer
+}
+
+.saveBtn{
+    margin-right:20px;
+}
+@media screen and (max-width: 480px) {
+    .modalContainer {
+        height:auto;
+        width :auto;
+        padding : 15px;
+        border : 1px solid #000000;
+        display:block;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+        color:#fff;
+        left:5%;
+        top: 25%;
+    }
+}
+

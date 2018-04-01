@@ -1,0 +1,43 @@
+
+html, body, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body  {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ADD7FF !important;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.content{
+    text-align:center;
+    margin-top:166px;
+    color:#00010E;
+    height:100%;
+}
+.strtButton{
+    padding: 20px 32px;
+    border:1px solid #000000;
+    background-color: #DCDCE7;
+    border-radius: 12px;
+}
+
+.strtButton:hover {
+    cursor: pointer
+}
+#page-wrapper{
+    background-color: #399cbd !important;
+}
