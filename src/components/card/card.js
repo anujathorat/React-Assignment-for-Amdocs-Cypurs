@@ -51,7 +51,7 @@ class Card extends React.Component{
         })
     }
     openModal(e){
-        let openModal = document.getElementById("editModal")
+        let openModal = document.getElementById("editModal");
         if(!openModal){
             this.setState({isOpen:true});
         }
