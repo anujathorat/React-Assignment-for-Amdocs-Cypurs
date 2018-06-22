@@ -1,4 +1,4 @@
-# React-Assignment-for-Amdocs-Cypurs
+# React-Assignment
 
 About project :
 
